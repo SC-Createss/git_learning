@@ -1,0 +1,38 @@
+
+Setup & Initialization
+
+• git config --global user.name "Your Name" and git config --global user.email "you@example.com". 
+  Sets the author name and email attached to your commits.
+• git init. Turns your current local folder into a new, empty Git repository.
+• git clone <url>. Downloads an existing remote repository and its full history onto your computer.
+
+Daily Workflow (Tracking Changes)
+
+• git status. Lists which files have been modified, staged, or left untracked in your working directory.
+• git add <file> or git add .. Moves specific files or all changed files into the staging area to prepare
+  them for a snapshot.
+• git commit -m "Description". Saves a permanent snapshot of your staged changes along with a short message
+  explaining what changed.
+• git diff. Shows the exact line-by-line changes made to files that have not been staged yet.
+• git log. Displays the chronological history of commits in the repository.
+
+Branching & Merging
+
+• git branch. Lists all local branches in your repository and highlights the one you are currently on.
+• git checkout -b <branch-name> or git switch -c <branch-name>. Creates a new branch and immediately
+  switches your working directory to it.
+• git checkout <branch-name> or git switch <branch-name>. Switches from your current branch to another 
+  existing branch.
+• git merge <branch-name>. Combines the changes from the specified branch into your current active branch.
+
+Syncing with Remote Repositories
+
+• git remote add origin <url>. Connects your local repository to a remote server such as GitHub or GitLab.
+• git pull. Fetches the latest changes from the remote repository and merges them into your local branch.
+• git push -u origin <branch-name>. Uploads your local commits to the remote repository for the first time,
+  after which you can simply run git push.
+
+Undoing Mistakes
+
+• git restore <file>. Discards uncommitted local changes in a file and reverts it back to the last commit.
+• git reset HEAD <file>. Removes a file from the staging area while keeping your edits intact on disk.

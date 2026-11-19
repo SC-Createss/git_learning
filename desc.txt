@@ -1,0 +1,17 @@
+Git is a free, open-source distributed version control system (DVCS) used primarily by software 
+developers to track changes in source code over time.
+
+What Git Does (Technical Meaning)
+
+• Time Machine for Code: It records snapshots of your project files (called commits) 
+  whenever you save or approve progress, letting you view history, compare versions,
+  or roll back to earlier states if something breaks.
+
+• Collaboration: It lets multiple people work on the same project simultaneously without overwriting 
+  each other's work. Developers can split off into separate branches to test new features and later 
+  merge them back into the main project.
+
+• Distributed System: Unlike older centralized tools, every developer holds a full, local copy of 
+  the entire project and its history on their own machine, meaning you can work offline.
+
+
