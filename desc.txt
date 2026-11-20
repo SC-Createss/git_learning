@@ -14,4 +14,47 @@ What Git Does (Technical Meaning)
 • Distributed System: Unlike older centralized tools, every developer holds a full, local copy of 
   the entire project and its history on their own machine, meaning you can work offline.
 
+GIT AND GITHUB
 
+1.  GIT
+
+Definition: Git is a free, open-source version control system used to
+track changes in files and manage a project’s source code.
+
+Description: Git helps developers save and track different versions of
+their work. It records changes so users can check what was changed and
+when. It also allows developers to return to an earlier version if
+something goes wrong. Multiple people can work on the same project using
+Git by creating separate branches and later combining their work.
+
+Main Uses of Git: - Tracks changes in files and code. - Saves different
+versions of a project. - Helps developers work together. - Allows users
+to create branches and merge changes. - Helps restore earlier versions
+of a project.
+
+2.  GITHUB
+
+Definition: GitHub is an online platform used to store, manage, and
+share projects that use Git.
+
+Description: GitHub provides a place on the internet where developers
+can upload and store their Git repositories. It makes teamwork easier
+because people can view code, suggest changes, report problems, and
+contribute to projects. GitHub also keeps projects available online, so
+users can access them from different places.
+
+Main Uses of GitHub: - Stores Git repositories online. - Makes it easier
+to share projects. - Helps teams work together. - Allows users to review
+and suggest code changes. - Supports open-source projects.
+
+3.  DIFFERENCE BETWEEN GIT AND GITHUB
+
+-   Git is a version control system; GitHub is an online platform.
+-   Git can work on a computer without an internet connection; GitHub is
+    mainly used online.
+-   Git tracks changes in files; GitHub hosts and shares Git
+    repositories.
+-   Git is a tool; GitHub is a service that works with Git.
+
+In Simple Words: Git helps you track changes in your project, while
+GitHub helps you store and share that project online.
